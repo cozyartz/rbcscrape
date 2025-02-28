@@ -1,0 +1,26 @@
+# Ignore environment variables and secrets
+.env
+
+# Ignore Python virtual environment directories
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Log files
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor directories (optional)
+.vscode/
+.idea/
